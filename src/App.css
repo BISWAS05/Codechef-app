@@ -1,0 +1,268 @@
+.timer-li {
+  display: inline-block;
+  font-size: 10px;
+  list-style-type: none;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.timer-span {
+  display: block;
+  font-size: 15px;
+  background: #ffd400;
+  padding: 5px;
+}
+
+.shadow-right {
+  box-shadow: 0 6px 0 0 #fff, 4px 2px 6px -4px #888;
+}
+
+#home {
+  box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+  /login
+*/
+
+#login {
+  box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+  /login/callback
+*/
+
+#login-callback {
+  box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+  /contests
+*/
+
+#contests {
+  box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#suggestions {
+  list-style-type: none;
+  padding: 0;
+  background: white;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+#suggestions li {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+#suggestions li:hover {
+  cursor: pointer;
+  background: whitesmoke;
+}
+
+/*
+  /contests/{contestCode}
+*/
+
+#contest-details {
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#contest-timer {
+  border: 1px solid #e7e5e6;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+#contest-rankings {
+  border: 1px solid #e7e5e6;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+#recent-activity {
+  border: 1px solid #e7e5e6;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.recent-activity-content {
+  border: 1px solid #e7e5e6;
+}
+
+.recent-activity-content tr {
+  font-size: 13px;
+}
+
+.span-h5 {
+  border-bottom: 1px solid;
+}
+
+.timer-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.announcements {
+  background: #eee;
+  padding: 10px 15px;
+  border-top: 1px solid #e4e4e4;
+  margin: 20px 0px;
+  font: bold normal 14px Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
+
+/*
+  /contests/{contestCode}/problems/{problemCode}
+*/
+
+#problem {
+  box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.problem-header {
+  line-height: 1.6;
+  border-bottom: 1px solid;
+}
+
+.problem-header span {
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  /* padding-left: 20px; */
+  margin-left: 10px;
+  top: -4px;
+}
+
+.problem-header button {
+  margin: 12px 12px 12px 12px;
+}
+
+#successful-submission {
+  border: 1px solid #e7e5e6;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.successful-submission-content {
+  border: 1px solid #e7e5e6;
+}
+
+.successful-submission-content tr {
+  font-size: 13px;
+}
+
+.successful-submission-content tr .view-button {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.problem-info {
+  background: whitesmoke;
+  padding: 10px 15px;
+  margin: 10px 15px;
+}
+
+.problem-info > .col-12 {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.submit-section {
+  border-top: 1px solid #e7e5e6;
+}
+
+.submit-info {
+  border: 1px solid #e7e5e9;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.editor-header {
+  border: 1px solid #e7e5e6;
+  padding: 10px;
+}
+
+.editor {
+  border: 1px solid #e7e5e6;
+}
+
+.editor-footer {
+  border: 1px solid #e7e5e6;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.run-button {
+  margin-left: 8px;
+}
+
+.submit-button {
+  margin-left: 8px;
+}
+
+#customInputDiv {
+  display: none;
+}
+.col-sm-12{
+  background-color: #e6e6ff;
+}
+.col{
+  background-color: #e6e6ff;
+}
+
+.col-11 {
+background-color: lightgrey;
+}
+.col-12 {
+background-color:  #000033;
+}
+.col-2 {
+background-color: lightgrey;
+}
+.row {
+background-color: lightgrey;
+} 
+.row-1 {
+background-color: lightgrey;
+padding: 300px;
+}  
+.col-sm-12{
+background-color: lightgrey;
+}
+.run-info {
+  display: block;
+}
+
+.run-details {
+  padding: 10px;
+  border: 1px solid #e7e5e6;
+}
+
+.run-details-info {
+  margin-right: 10px !important;
+}
+
+.run-details-info .key {
+  margin-right: 5px !important;
+  font-weight: bolder;
+}
+
+.run-output {
+  border: 1px solid #e7e5e6;
+}
+
+.run-output-info {
+  padding: 20px;
+}
+
+.run-output-info .key {
+  font-weight: bolder;
+}

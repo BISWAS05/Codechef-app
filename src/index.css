@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo 2", cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#header {
+  background: white;
+}
+
+#root {
+  background: white;
+}
+
+.breadcrumb {
+  margin: 0 !important;
+  background: none !important;
+  padding: 0.75rem 0rem !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "»" !important;
+}
