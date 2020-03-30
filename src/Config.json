@@ -1,6 +1,6 @@
 {
   "API_BASE_URL": "https://api.codechef.com/",
   "APP_BASE_URL": "https://festive-mahavira-dabfb7.netlify.com/",
-  "APP_AUTH_REDIRECT_URI": "https://festive-mahavira-dabfb7.netlify.com/login/callback/",
+  "APP_AUTH_REDIRECT_URI": "https://festive-mahavira-dabfb7.netlify.com/",
   "APP_AUTH_STATE": "xyz"
 }
